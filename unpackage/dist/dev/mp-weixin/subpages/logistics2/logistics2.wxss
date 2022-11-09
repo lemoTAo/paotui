@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.flex_c {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.flex_c_ce {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex_c_s {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.flex_st {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flex_r_no {
+  display: flex;
+  justify-content: center;
+}
+.flex_r_st {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text {
+  font-size: 26rpx;
+  color: #797b7e;
+}
+.outer {
+  padding: 40rpx 40rpx;
+  box-sizing: border-box;
+}
+.outer .detail_box {
+  padding: 50rpx 40rpx;
+  height: 200rpx;
+  color: #ecebfe;
+  border-radius: 30rpx;
+  background-color: #6154f5;
+  box-sizing: border-box;
+}
+.outer .detail_box .detail-item {
+  height: 100%;
+  margin-right: 40rpx;
+  font-size: 26rpx;
+}
+.outer .detail_box .detail-item text:last-child {
+  font-size: 34rpx;
+}
+.outer .process-box {
+  margin: auto 0;
+}
+.outer .process-box .proces-text {
+  font-size: 44rpx;
+}
+.outer .process-box .process-contanter {
+  position: relative;
+  margin-top: 40rpx;
+}
+.outer .process-box .process-contanter .Dotted-line {
+  position: absolute;
+  width: 1px;
+  height: 600rpx;
+  top: 0;
+  left: 50rpx;
+  border-left: 2px dashed #b7b3ed;
+}
+.outer .process-box .process-contanter .process-list .process-item {
+  height: 65px;
+  margin-bottom: 40rpx;
+  box-sizing: border-box;
+}
+.outer .process-box .process-contanter .process-list .process-item .image-box {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: #6154f5;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAYAAABiFp9rAAAABHNCSVQICAgIfAhkiAAABctJREFUSEullXtMU1ccx7/3tr193bZAaxGhCD4AERF8R4VVBMOyCMypy3xkRoluKtNtIsO4iW7JnMboHhhF5rI/XMSZTaMLhuh8x/nGB4KgOBBQBKHQUqDtvWenxQcCKszfP/fm/B6f83uccxi8ROypqwNcDLZSdT+WZVbwO7+79jLb3qwzXY1IWprc1qZKFxlkUqXqiV4ESC4RnJm6n7c29CZwV5sXQLYl6YkCYbPp4qCeghFCGljgS75MlcOcyHL1BegBNS/ODCMQtjJgEnvpXMIQ8SPNrs0ne2kPpmlR+npGwq6hDtLeOj2zI2S/lOBTVe6mqtf5Mndj333kHWi6LVUpJ1JjWpm+CQHsLMhGHqotTE6W/WXeTNmkJGoLyJSK2zpTgFUik43pG6rDmoDcZxmSrtm5Oa8nfw+IGxIMx517Hr1Cp72kHeDnw7BsjwPxqk0QUbyrtDRt5vbn7Ow2dW6QMjoCishhsB45AVdtnXt3Lo2v8bRar48Aw/R7bYYieSi12f6V2lrHEzAb5Id3Z/UIkkeEQREeAkdZOSCXo/1mCURbC2hWVl3AgKtyDT8eYORdnem4W6WtbddkTdZxVM95Skiw/qUgY2YaGJkM9sIisJwUrFqF1is34bhX6QFKOK7SZ6DpActxFOgRF9PmOCu3NIfTyC9k/EqQYUUqvGZNh9hsxePdeyE1+KC97B4kem8KvPG8f7y6UOfn28RZWgJZQQjusekg62SHftnQY+loH6BLToR+8VywWo0ncHPBKbQXl0La3whr/t/P/LSc4pQ3z8d2DWThlFg7cTbqeFXxn0vGhncD7ZiUdMYMMkECemw1PPRL5kOXNI2eKBa242fhqKiGZe8BTwndwsvlp/VqTUznQDtCp+DzwRPg9AkA22qFkuddgW3V6cXzhm57asdIY2dkjRZbFq2ENGAMkXjW3ePej5bTPY1wCWgtKkH1MvflQUGc4oye5ye7/0/2D8X7IVPQYBpOnZ7ev1RRS4fKdxAC22oKK+f4R7ttGZhTgr4KEbYnzFyY8OuGbdJ5okbwZ1gPkY+bDGPGMs9wWPYdQv0PudDSjBitT0zahHnIC6G8mttgHHYQCgX9MlU3QAbTIZSrESZpcJUk62UdICofzpw2d3naJx/v+mnLpJp6Z/0UTmuYapVATXunpWXUTDPD9aAWdd/nQuV0nbrlNyR2aeRbaFH4ocoU2VGd+gqalRLQGqEW7Zhi4pAxnMXqfeevnFs4cfSzZyI+Pi6rra3VND3aKMzLyF6YlrpAMtGmRrIo0jNIiU+E9sgDqtq0Bhcu38KBWzY8CBwHUcGDJWJjsMLhvTySwyjvjlt6T1Ej2T7ewHZ7+BISzFEr5iRuyjuYP3Vfg5d9OGH5DUQQQgk6yvkE1Jj9DXR05XrxHRyrQfNdPqQ6NUwcFsx37Mhhb4GcCKhoIuSzcJ/uILdRfHy8ud1u73+ONT4Ey2TR3byVQkSkC6JLI1cUlfqHGC0bv/Dz1apQTg+1l9EXRyqczUlhvNbtT+88WB89hM3ejh9rTSh7W/68JE9L09NXEjNjAX1AstSEDIynLoVhEai/X44PZs9ERFQkHj1uwMUWfXlqbOAgdyb2x3UossmRU+uHEV4s/jF3qv2rQB6dOcVLKrIr6fisC6CgqpKbnmVtwFAMDfJHzDvvNfp7ybxLmwj+qPdBrVOKWFcZMuKHwFB2MbZbj3oBDOo3KjncUnruL0ZrbAty1CkaTCOhHjwKlYbIasIp/Se03sKI6tPQhY5B0ZnjQt3xvFV9Bz3ZieLb42ZDcUHm2mHCyKOXS30LQucjLiGualm0NmBXwXXonU04v2eH09Xe+vv1owfn/m+Qp5pmc1DG4lnZTQ4mcfWxCjZl6epGV/kN76uHfhNaHtdXcY2VCy5dunTCbftGIHcA92E3qGVf51exompsIue8kG8XpIpVNwv2H+7chjcGdQ4WFRXlVVhYaOmpz/8B2V863tP2wbUAAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  background-size: 60% 60%;
+  background-position: center;
+  z-index: 1;
+}
+.outer .process-box .process-contanter .process-list .process-item .text-item {
+  padding: 20rpx 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+.outer .process-box .map-container {
+  position: relative;
+  width: 100%;
+  height: 300rpx;
+  z-index: 999;
+}
+.outer .process-box .map-container .map {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  right: 0;
+  height: 300rpx;
+  background-color: #b7b3ed;
+  z-index: 9999;
+}
+

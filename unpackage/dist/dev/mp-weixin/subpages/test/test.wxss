@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.margin_right20.data-v-53913532 {
+  margin-right: 20px;
+}
+.fonSize26.data-v-53913532 {
+  font-size: 28rpx;
+  color: white;
+}
+.flex_r_st.data-v-53913532 {
+  display: flex;
+  justify-content: flex-start;
+}
+.flex_row.data-v-53913532 {
+  display: flex;
+  justify-content: space-between;
+}
+.flex_co.data-v-53913532 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex_co_be.data-v-53913532 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text-bo-mr.data-v-53913532 {
+  margin-bottom: 10px;
+}
+.outer .big-item.data-v-53913532 {
+  height: 80px;
+  padding: 0 30rpx;
+  margin-bottom: 10px;
+}
+.outer .big-item text.data-v-53913532:last-child {
+  font-size: 26rpx;
+  color: #a2a2ab;
+}
+.outer .icon-del-box.data-v-53913532 {
+  margin-top: 1px;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #fa4d62;
+}
+.outer .info-box.data-v-53913532 {
+  margin: 0 40rpx;
+  height: 230rpx;
+  padding: 50rpx;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  background-color: #676cf0;
+}
+.outer .info-box .item.data-v-53913532 {
+  align-items: center;
+}
+.outer .bottom-box.data-v-53913532 {
+  margin: 0 40rpx;
+  height: 200rpx;
+  align-items: center;
+  border-top: 1px solid #e6e6e6;
+}
+.outer .bottom-box .text-box.data-v-53913532 {
+  height: 100rpx;
+}
+.outer .bottom-box .text-box > text.data-v-53913532:first-child {
+  color: #ababab;
+}
+.outer .bottom-box .btn.data-v-53913532 {
+  margin: 0;
+  width: 50%;
+  height: 100rpx;
+  color: white;
+  font-size: 13px;
+  line-height: 100rpx;
+  border-radius: 20px;
+  background-color: #655cf3;
+}
+.icon.data-v-53913532 {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  align-items: center;
+  background-color: #6156f4;
+}
+.icon image.data-v-53913532 {
+  width: 35%;
+  height: 45%;
+}
+.iamge-box.data-v-53913532 {
+  height: 80px;
+  width: 80px;
+  background-color: #e6f3f8;
+  border-radius: 20px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.iamge-box image.data-v-53913532 {
+  width: 50%;
+  height: 50%;
+}
+

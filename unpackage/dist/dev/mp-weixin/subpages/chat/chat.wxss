@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.flex_c {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.flex_c_ce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flex_c_st {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.flex_r {
+  display: flex;
+  justify-content: space-between;
+}
+.flex_r_st {
+  display: flex;
+  justify-content: flex-start;
+}
+.row_reverse {
+  flex-direction: row-reverse !important;
+}
+.row_reverse > .chat-message {
+  margin-left: 0 !important;
+  margin-right: 20px;
+  align-items: center;
+  padding: 10px;
+  width: -webkit-fit-content;
+  width: fit-content;
+  max-width: 100rpx;
+  color: white !important;
+  background-color: #675ef5 !important;
+  box-shadow: none !important;
+}
+.row_reverse > .chat-message .text {
+  flex: 1;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 12px;
+  display: flex;
+}
+.outer {
+  color: white;
+}
+.outer .express_info {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 220rpx;
+  padding: 10px 30rpx;
+  background-color: #675ef5;
+  overflow: hidden;
+}
+.outer .express_info .userInfo > text:nth-child(1) {
+  font-size: 36rpx;
+  font-weight: 800;
+}
+.outer .express_info .userInfo > text:nth-child(2) {
+  font-size: 24rpx;
+}
+.outer .express_info .express-detail-info .right-item {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  background-color: #eeeefa;
+  border-radius: 10px;
+}
+.outer .express_info .express-detail-info .right-item image {
+  width: 70%;
+  height: 70%;
+}
+.outer .express_info .express-detail-info .left-item {
+  font-size: 24rpx;
+}
+.outer .express_info .express-detail-info .left-item > text:nth-child(1) {
+  font-size: 28rpx;
+  font-weight: 800;
+}
+.outer .chat-box {
+  padding: 20px 30rpx;
+  overflow: hidden;
+}
+.outer .chat-box .chat-item {
+  margin-top: 10px;
+  position: relative;
+}
+.outer .chat-box .chat-item .touxiang {
+  height: 45px;
+  width: 45px;
+}
+.outer .chat-box .chat-item .touxiang image {
+  height: 100%;
+  width: 100%;
+}
+.outer .chat-box .chat-item .chat-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  padding: 10px;
+  height: 100%;
+  width: -webkit-fit-content;
+  width: fit-content;
+  max-width: 300rpx;
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 10rpx 10rpx 2px #eaeef3;
+}
+.outer .chat-box .chat-item .chat-message .text {
+  letter-spacing: 1px;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 14px;
+  line-height: 150%;
+}
+.outer .send-box {
+  color: black;
+  padding-top: 10rpx;
+  padding-left: 50px;
+  margin-bottom: 10px;
+  height: 60rpx;
+  border-top: 1px solid #e5e5e5;
+}
+.outer .send-box .input {
+  height: 100%;
+  margin-right: 10rpx;
+  padding: 10rpx 40rpx;
+  width: 80%;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.outer .send-box .btn {
+  height: 100%;
+  font-size: 26rpx;
+  padding: 10rpx 20rpx;
+  line-height: 40rpx;
+  border-radius: 10rpx;
+  background-color: darkseagreen;
+  box-sizing: border-box;
+}
+

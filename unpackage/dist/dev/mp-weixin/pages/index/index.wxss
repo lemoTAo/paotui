@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  margin: 0;
+  width: 100%;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+view,
+text,
+image {
+  position: relative;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.flex-col {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  align-items: flex-start;
+}
+.flex-col .flex-row {
+  width: 100%;
+}
+.flex-bw {
+  display: flex;
+  justify-content: space-between;
+}
+.box_shadow {
+  box-shadow: 10rpx 15rpx 6rpx #bfbfbf;
+}
+/** 全局样式-结束*/
+.indexpage {
+  padding: 0rpx 48rpx;
+}
+.indexpage .wrapper {
+  width: 100%;
+  height: 504rpx;
+  margin: auto 0;
+}
+.indexpage .wrapper .select-service {
+  margin: auto 0;
+  width: 144rpx;
+  font-size: 36rpx;
+  font-weight: 500;
+}
+.indexpage .wrapper .wraper-row {
+  width: 654rpx;
+  justify-content: space-between;
+  margin-bottom: 24rpx;
+}
+.indexpage .wrapper .wraper-row .box {
+  width: 280rpx;
+  height: 374rpx;
+  border-radius: 20px;
+}
+.indexpage .wrapper .wraper-row .box image {
+  width: 100%;
+  height: 100%;
+}
+.indexpage .wrapper .wraper-row-two {
+  width: 444rpx;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+.indexpage .wrapper .wraper-row-two .place-an-order {
+  font-size: 36rpx;
+  line-height: 28rpx;
+}
+.indexpage .wrapper .wraper-row-two .running-errands {
+  width: 72rpx;
+  font-size: 34rpx;
+  line-height: 28rpx;
+}
+.indexpage .wrapper-two {
+  width: 654rpx;
+  justify-content: space-between;
+  margin: auto 0;
+  padding: 0rpx 10rpx 0rpx 0rpx;
+  border-radius: 20rpx;
+}
+.indexpage .wrapper-two .select-two {
+  margin: auto 0;
+  width: 144rpx;
+  font-size: 36rpx;
+  font-weight: 500;
+}
+.indexpage .wrapper-two .wraper-col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 278rpx;
+  height: 276rpx;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+  padding: 40rpx 40rpx;
+}
+.indexpage .wrapper-two .wraper-col image {
+  width: 50%;
+  height: 50%;
+}
+.indexpage .wrapper-two .wraper-col .gou {
+  position: absolute;
+  top: 30rpx;
+  right: 30rpx;
+  width: 30rpx;
+  height: 30rpx;
+  cursor: pointer;
+}
+.indexpage .wrapper-two .wraper-col .gou image {
+  width: 100%;
+  height: 100%;
+}
+.indexpage .button {
+  height: 100rpx;
+  width: 454rpx;
+  line-height: 100rpx;
+  display: block;
+  margin: auto auto;
+  border-radius: 150rpx;
+  background-color: #655cf3;
+}
+

@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/message/message"
+  ],
+  "subPackages": [
+    {
+      "root": "subpages",
+      "pages": [
+        "order_pages/order_pages",
+        "pay/pay",
+        "chat/chat",
+        "order_finish/order_finish",
+        "logistics1/logistics1",
+        "logistics2/logistics2",
+        "order_receiving/order_receiving",
+        "jiedanpage/jiedanpage",
+        "wuliuchaxun/wuliuchaxun",
+        "test/test",
+        "xiadan/xiadan"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "",
+    "list": [
+      {
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/index_active.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/message.png",
+        "selectedIconPath": "static/message_active.png",
+        "pagePath": "pages/message/message",
+        "text": "消息"
+      },
+      {
+        "iconPath": "static/me.png",
+        "selectedIconPath": "static/me_active.png",
+        "pagePath": "pages/home/home",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-button": "/wxcomponents/dist/button/index",
+    "van-search": "/wxcomponents/dist/search/index",
+    "van-transition": "/wxcomponents/dist/transition/index",
+    "van-swipe-cell": "/wxcomponents/dist/swipe-cell/index",
+    "van-cell": "/wxcomponents/dist/cell/index",
+    "van-popup": "/wxcomponents/dist/popup/index"
+  }
+}

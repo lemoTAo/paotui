@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  padding-bottom: 20rpx;
+  color: white;
+  font-size: 16px;
+  background-color: #5b4cd5;
+}
+.flex_co {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.margin_bo {
+  margin-bottom: 20rpx;
+}
+.flex_al {
+  display: flex;
+  align-items: center;
+}
+.outer {
+  display: flex;
+  justify-content: space-between;
+}
+.outer .usrInfo_box {
+  padding-top: 20rpx;
+  margin: 0 auto;
+  width: 600rpx;
+  align-items: center;
+}
+.outer .usrInfo_box .title {
+  font-size: 50rpx;
+  margin-bottom: 30rpx;
+}
+.outer .usrInfo_box .user_image {
+  width: 240rpx;
+  height: 240rpx;
+  background-color: aliceblue;
+  border-radius: 60rpx;
+}
+.outer .usrInfo_box .user_image image {
+  height: 100%;
+  width: 100%;
+}
+.outer .usrInfo_box .btn_update {
+  width: 320rpx;
+  background-color: #ffb94f;
+  height: 80rpx;
+  color: white;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+}
+.outer .other_info {
+  padding: 0rpx 40rpx 0rpx 40rpx;
+}
+.outer .other_info ._ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.outer .logOut {
+  padding-left: 40rpx;
+  padding-bottom: 50rpx;
+}
+

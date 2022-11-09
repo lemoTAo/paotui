@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.flex_c {
+  display: flex;
+  flex-direction: column;
+}
+.boder_bottom {
+  border-bottom: 5px solid #6d60da;
+}
+.outer {
+  font-size: 32rpx;
+  padding: 0 30rpx;
+}
+.outer .option_box {
+  display: flex;
+}
+.outer .option_box .opton_card {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.outer .detail_message {
+  padding-top: 40rpx;
+}
+.outer .detail_message .detail_box {
+  margin-top: 20px;
+  background-color: #e6f3f8;
+  border-radius: 30rpx;
+  display: flex;
+  justify-content: flex-start;
+  height: 100rpx;
+  padding: 40rpx;
+}
+.outer .detail_message .detail_box .detail_image {
+  height: 100rpx;
+  width: 100rpx;
+  margin-right: 40rpx;
+}
+.outer .detail_message .detail_box .detail_image image {
+  height: 100%;
+  width: 100%;
+}
+.outer .detail_message .detail_box .detail_code {
+  margin-right: 40rpx;
+  justify-content: space-between;
+}
+.outer .detail_message .detail_box .detail_code text:nth-child(2) {
+  color: darkgray;
+  font-size: 26rpx;
+}
+.outer .detail_message .detail_box .detail_price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+}
+

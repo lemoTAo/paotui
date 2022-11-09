@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  font-size: 28rpx;
+}
+.flex_row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex_co {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex_co_c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.option_active {
+  background-color: #655cf3 !important;
+  color: white;
+}
+.outer {
+  padding: 0 40rpx;
+}
+.outer .option-item {
+  margin: 30rpx  20rpx 30rpx 0;
+  background-color: #eeeeee;
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border-radius: 30rpx;
+}
+.outer .package-iten {
+  justify-content: space-between;
+}
+.outer .package-iten .item {
+  margin: 20rpx 0;
+  display: flex;
+  justify-content: space-between;
+}
+.outer .package-iten .item .item-image-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50rpx;
+  align-items: center;
+  background-color: #ebebff;
+}
+.outer .package-iten .item .item-image-box .item-image {
+  height: 140rpx;
+  width: 140rpx;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #655cf3;
+}
+.outer .package-iten .item .item-image-box .item-image image {
+  height: 50%;
+  width: 50%;
+}
+.outer .package-iten .item text {
+  margin-top: 6rpx;
+}
+.outer .package-iten .item text:last-child {
+  font-weight: 800;
+}
+

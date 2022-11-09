@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.outer {
+  box-sizing: border-box;
+}
+.outer .box1 {
+  padding: 20rpx 40rpx;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1rpx solid #f5f3f2;
+  border-bottom: 1rpx solid #f5f3f2;
+}
+.outer .scroll-view-content {
+  white-space: nowrap;
+}
+.outer .scroll-view-content .dataList {
+  display: inline-block;
+  width: 50px;
+  height: 70px;
+  margin-right: 40rpx;
+}
+.outer .scroll-view-content .dataList > view {
+  align-items: center;
+}
+.outer .scroll-view-content .dataList > view .list {
+  display: flex;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  background: #007AFF;
+}
+.outer .scroll-view-content .dataList > view .list image {
+  height: 100%;
+  width: 100%;
+}
+.outer .massage_list {
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.outer .massage_list .message_box {
+  box-sizing: content-box;
+  height: 80px;
+  margin: auto 0;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #f5f3f2;
+}
+.outer .massage_list .message_box .message-item-left {
+  display: flex;
+  align-items: center;
+}
+.outer .massage_list .message_box .message-item-left .item-image {
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 60rpx;
+  background-color: white;
+}
+.outer .massage_list .message_box .message-item-left .item-image image {
+  height: 100%;
+  width: 100%;
+}
+.outer .massage_list .message_box .message-item-left .item-name {
+  padding: 10rpx 0;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.outer .massage_list .message_box .message-item-left .item-name .name {
+  color: #272727;
+  font-size: 20px;
+}
+.outer .massage_list .message_box .message-item-left .item-name .message {
+  color: #959595;
+}
+.outer .massage_list .message_box .message-item-right {
+  height: 20px;
+  width: -webkit-fit-content;
+  width: fit-content;
+  display: flex;
+}
+
